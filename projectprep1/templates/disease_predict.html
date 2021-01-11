@@ -1,0 +1,21 @@
+<head>
+<style>
+    body
+    {
+    background-image:url({{url_for('static',filename='builtin/docc2.jpg')}})
+    }
+</style>
+</head>
+<body>
+    <div id="prediction" style="position: absolute; top:100px;right:400px ;height:400px;width:800px">
+        <form>
+        <span style="font-size: 30px; color:black;
+        position: relative;left:120px; top:50px">
+            <br>   You may be suffering from
+            {{disease[0]}}
+            <br>
+        </span>
+        <br>
+        </form>
+    </div>
+    </body>
